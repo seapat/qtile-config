@@ -156,8 +156,6 @@ def setup_binds() -> tuple[list, list]:
 
     return keys, mouse
 
-
-# F1, F2, F3, ...
 # XF86AudioRaiseVolume
 # XF86AudioLowerVolume
 # XF86AudioMute
