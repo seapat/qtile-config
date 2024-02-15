@@ -134,11 +134,9 @@ def setup_binds() -> tuple[list, list]:
         # ),
         Key([mainMod], "r", lazy.spawn("rofi -show drun")),
         # Key([mainMod], "v", lazy.spawn("rofi -modi clipboard:${cliphist-rofi-img}/bin/cliphist-rofi-img -show clipboard -show-icons")),
-        # Key([mainMod], "", lazy.spawn("rofi -show drun")),
         # Key(["ALT"], "r", lazy.spawn("pkill ${launcher} || ${launcher} -show run")),
 
     ]
-    # Drag floating layouts.
     mouse: list[Mouse] = [
         Drag(
             [mainMod],
@@ -159,12 +157,6 @@ def setup_binds() -> tuple[list, list]:
     return keys, mouse
 
 
-# Return
-# BackSpace
-# Tab
-# space
-# Home, End
-# Left, Up, Right, Down
 # F1, F2, F3, ...
 # XF86AudioRaiseVolume
 # XF86AudioLowerVolume
