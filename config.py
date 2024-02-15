@@ -26,7 +26,7 @@ widget_defaults = dict(
 )
 extension_defaults = widget_defaults.copy()
 
-# {0: (1, 2, 3), 1: (4, 5, 6)}
+# monitor: workspaces -> {0: (1, 2, 3), 1: (4, 5, 6)}
 group_names: dict[int, tuple] = dict(
     (
         screen,
