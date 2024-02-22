@@ -8,9 +8,7 @@ from popups.power_menu import show_power_menu
 
 def setup_binds() -> tuple[list, list]:
     keys: list[Key] = [
-        # A list of available commands that can be bound to keys can be found
-        # at https://docs.qtile.org/en/latest/manual/config/lazy.html
-        # Switch between windows
+        # Reference https://docs.qtile.org/en/latest/manual/config/lazy.html
         Key([mainMod], "h", lazy.layout.left(), desc="Move focus to left"),
         Key([mainMod], "l", lazy.layout.right(), desc="Move focus to right"),
         Key([mainMod], "j", lazy.layout.down(), desc="Move focus down"),

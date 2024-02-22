@@ -3,5 +3,4 @@
 .*decrypted*
 __pycache__
 _*
-*.nix
 .mypy_cache
